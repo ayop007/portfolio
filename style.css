@@ -1,0 +1,192 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family:Andale Mono, monospace ;
+}
+.part-one{
+	background-image: url(https://images.pexels.com/photos/3937174/pexels-photo-3937174.jpeg?auto=compress&cs=tinysrgb&w=400);
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	color: white;
+	text-transform: capitalize;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.nav ul{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.nav h1{
+	width: 130px;
+	font-size: 25px;
+	margin-top: 5px;
+	background-color:#60609f; 
+	border-radius: 10px;
+	margin-bottom: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	margin-left: 32%;
+	margin-top: 20px;
+}
+.nav li{
+	list-style: none;
+}
+.nav a{
+	text-decoration: none;
+	color: white;
+	background-color: #60609f;
+	border-radius: 10px;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+@media (min-width: 420px) {
+	.part-one{
+		background-image: url(https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+		
+	}
+	.just{
+		display: flex;
+		padding-top: 40px;
+		margin:auto;	
+	
+	}
+	.just h1{
+		text-align: center;
+		background-color: grey;
+		font-size: 60px;
+		padding-right: 180px;
+
+	}
+	.nav ul{
+		display: none;
+	}
+}
+span{
+	color: black;	
+}
+.under{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 150px;
+	background-color: #60609f;
+	gap:0.7em;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+.under h2{
+	color: black;
+}
+.under h3{
+	color:black; 
+}
+@media (min-width: 420px) {
+	.under{
+		background-color: grey;
+	}
+}
+.part-two{
+	background-color: #14141f;
+	color:white;
+	padding-bottom: 30px;
+}
+.part-two h2{
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    text-transform: capitalize;
+}
+.part-two p{
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color:#8585ad;
+	border-radius: 10px;
+	padding: 10px;
+}
+@media (min-width: 420px) {
+	.part-two{
+		display: flex;
+	}
+	.slide-one {
+		margin-left: 10px;
+	}
+	.slide-three{
+		margin-right: 10px;
+	}
+}
+.part-three{
+	background-color: #60609f;
+	color: white;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	gap:3em;
+	align-items: center;
+}
+.part-three i{
+		font-size: 30px;
+		border-radius: 10px;
+		margin-bottom: 10px;
+}
+.my-gmail{
+		background-color:#808080;
+		color: black;
+		margin-right: 20%;
+		margin-left: 20%;
+		border-radius: 20px;
+		padding: 10px;
+		width: 225px;
+		align-content: center;
+}
+.my-instagram{
+		background-color:#808080;
+		color: black;
+		margin-right: 20%;
+		margin-left: 20%;
+		border-radius: 20px;
+		padding: 10px;
+		width: 225px;
+
+}
+.my-instagram a{
+	color: black;
+	text-decoration: none;
+}
+.my-wts{
+		background-color:#808080;
+		color: black;
+		margin-right: 20%;
+		margin-left: 20%;
+		border-radius: 20px;
+		padding: 10px;
+		width: 225px;
+
+}
+@media (min-width: 420px) {
+	.part-three{
+		flex-direction: row;
+		justify-content: center;
+	}
+	.my-gmail{
+		margin: 20px;
+	}
+	.my-instagram{
+		margin: 20px;
+	}
+	.my-wts{
+		margin: 20px;
+	}
+}
